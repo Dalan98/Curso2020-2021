@@ -1,4 +1,4 @@
-Nuestro proyecto muestra la cantidad de vidrio recogida en las vías públicas.
+Name and Surname - Github account;
 
 Daniel Berrocal González - bgDani   
 Daniel Rodríguez Bravo - Dalan98    
