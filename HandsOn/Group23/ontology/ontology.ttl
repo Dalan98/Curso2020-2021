@@ -54,22 +54,11 @@
              rdfs:range <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> .
 
 
-###  http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas#isAvailable
-:isAvailable rdf:type owl:ObjectProperty ;
-             rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
-             rdfs:range <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Availability> .
-
 
 ###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasTransport
 <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasTransport> rdf:type owl:ObjectProperty ;
                                                                                                  rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
                                                                                                  rdfs:range <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Transport> .
-
-
-###  http://www.w3.org/2002/07/owl#topObjectProperty
-owl:topObjectProperty rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
-                      rdfs:range <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Availability> .
-
 
 #################################################################
 #    Data properties
@@ -210,10 +199,6 @@ owl:topObjectProperty rdfs:domain <http://www.instalacionesDeportivasMunicipales
 #################################################################
 #    Classes
 #################################################################
-
-###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Availability
-<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Availability> rdf:type owl:Class .
-
 
 ###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Equipment
 <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Equipment> rdf:type owl:Class .
